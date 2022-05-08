@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">TheaterApp</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="didntRegister">Nincs még fiókod?</string>
+    <string name="registration">Regisztrálj</string>
+    <string name="registrationText">Regisztráció</string>
+    <string name="emailAddress">E-mail cím</string>
+    <string name="passwordAgain">Jelszó megerősítése</string>
+    <string name="iRegister">Regisztrálok</string>
+    <string name="haveYouRegistered">Van már fiókod?</string>
+    <string name="logInReg">Lépj be!</string>
+    <string name="rememberMe">Emlékezz rám</string>
+    <string name="plays">Előadások</string>
+    <string name="loginWithGoogle">Bejelentkezés Google fiókkal</string>
+    <string name="loginAsGuest">Bejelentkezés vendégként</string>
+    <string name="fromPlay">A produkcióról:</string>
+    <string name="toCart">Kosárba</string>
+    <string name="downscript">Leírás</string>
+    <string name="search">Keresés</string>
+    <string name="yourTickets">Jegyeid</string>
+    <string name="View">Nézet</string>
+    <string name="Settings">Beállítások</string>
+    <string name="logOut">Kijelentkezés</string>
+    <string name="bookATicket">Jegyet foglalok!</string>
+    <string name="title">Cím</string>
+    <string name="price">Ár</string>
+    <string name="date">Időpont</string>
+    <string name="stage">Színpad</string>
+    <string name="freeSeat">- Szabad Hely</string>
+    <string name="reservedSeat">- Foglalt hely</string>
+    <string name="tapForSeat">Tappints egy helyre, hogy lefoglald.</string>
+    <string name="chooseAnotherMovie">Másik előadást választok</string>
+    <string name="summary">Összegzés</string>
+    <string name="titleOfPlay">Az Előadás Címe:</string>
+    <string name="back">Vissza</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="throwATicket">Lemond</string>
+    <string name="seatNumber">Szék szám</string>
+    <string name="seat">Szék:</string>
+
+    <string-array name="play_names">
+        <item>Harry Potter és az elátkozott gyermek</item>
+        <item>Hamlet</item>
+        <item>Rómeó és Júlia</item>
+        <item>Kincsem</item>
+        <item>Mamma Mia!</item>
+        <item>A Dzsungel Könyve</item>
+    </string-array>
+
+    <string-array name="play_desc">
+        <item>Harry Potter élete sosem volt könnyű - és most sem az, amikor a Mágiaügyi Minisztérium túlhajszolt dolgozójaként, férjként és három iskolás korú gyermek apjaként kell helyt állnia. Miközben Harry a múlttal viaskodik, ami nem hagyja magát eltemetni, legkisebb fiának, Albusnak meg kell küzdenie a reá nehezedő családi örökséggel. </item>
+        <item>Az előadás középpontjában a család áll. Az az anya, és fiú, aki különböző módon gyászol, üdvözöl egy új világot, rendszert, ami gyarlóbb, és kuszább lett, mint az előző. </item>
+        <item>Párkapcsolat, szerelem, érzékiség, családi viszály, ifjú nemzedék és öregek ellentéte: örökké aktuális élethelyzetek.  A létezés fő misztériuma, a szerelem - az élet maga - és a halál egy alkotásban: a mindenkori ifjúság megdicsőülése és az értelmetlen halál elutasítása. </item>
+        <item>Minden 100 évben születik egy ló, és minden 100 évben születik egy ember, akiknek a lelke összekapcsolódik. Egy történet a száguldásról, a tehetségről és a megzabolázhatatlan gyorsaságról! Ki ne hallott volna a “csodakancáról”, aki minden versenyét megnyerte, és veretlenül vonult vissza.  </item>
+        <item>Napfényben fürdő görög sziget. Mindent körbeölelő csillogó türkiz tenger. Hangulatos tavernák, ínycsiklandó étkek, mavrodaphne… Egyszerűen idilli - tökéletes felkeresni, ott időzni, visszatérni – s persze élni. Donna Sheridan, a független, céltudatos asszony ezt a nem mindennapi környezetet választotta otthonául, és itt született húsz évvel ezelőtt Sophie is, a lánya. </item>
+        <item>Ugyan ki tudná összefoglalni, mi mindenről szól a farkasok közt nevelkedett Maugli, az emberek ketrecéből szabadult Bagira, a törvényt bölcsen oktató Balu, a titokzatos Ká, a bosszúra és embervérre szomjas Sír Kán története? Szól a születésről és a halálról, a befogadásról és a kitaszításról, a csapatról és a magányról, a gyerekkor és a kamaszkor varázslatos időszakáról — vagyis mindarról, ami egy \"kölyökkel\" megeshet, akár farkasok, akár emberek között nevelkedik. </item>
+    </string-array>
+
+    <array name="play_rates">
+        <item>4.8</item>
+        <item>4.2</item>
+        <item>4.5</item>
+        <item>4.5</item>
+        <item>4.3</item>
+        <item>4.4</item>
+    </array>
+
+    <array name="play_images">
+        <item>@drawable/hpottercover</item>
+        <item>@drawable/hamletcover</item>
+        <item>@drawable/romeojulietcover</item>
+        <item>@drawable/kincsemcover</item>
+        <item>@drawable/mammamiacover</item>
+        <item>@drawable/dzsungelkonyvecover</item>
+    </array>
+
+    <array name="play_date">
+        <item>Az előadás időpontja: 16:20</item>
+        <item>Az előadás időpontja: 15:40</item>
+        <item>Az előadás időpontja: 12:10</item>
+        <item>Az előadás időpontja: 20:00</item>
+        <item>Az előadás időpontja: 21:20</item>
+        <item>Az előadás időpontja: 17:20</item>
+    </array>
+
+    <array name="play_price">
+        <item>1500ft</item>
+        <item>1500ft</item>
+        <item>1500ft</item>
+        <item>1500ft</item>
+        <item>1500ft</item>
+        <item>1500ft</item>
+    </array>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/playTicketTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/title"
+            android:layout_centerHorizontal="true"
+            android:textColor="?android:textColorSecondary" />
+
+
+
+
+        <TextView
+            android:id="@+id/playTicketSeatNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/playTicketTitle"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:text="@string/seatNumber" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/playTicketSeatNumber"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="7dp"
+            android:layout_toStartOf="@+id/playTicketSeatNumber"
+            android:text="@string/seat"></TextView>
+
+        <TextView
+            android:id="@+id/playTicketPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/playTicketSeatNumber"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp"
+            android:textColor="@color/red"
+            android:text="@string/price"
+            android:layout_centerHorizontal="true"/>
+
+
+
+        <Button
+            android:id="@+id/throwAway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/playTicketPrice"
+            android:text="@string/throwATicket"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

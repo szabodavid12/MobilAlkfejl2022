@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <EditText
+        android:id="@+id/userNameEditTextXml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:hint="@string/emailAddress"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <EditText
+        android:id="@+id/passwordEditTextXml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userNameEditTextXml"
+        app:layout_constraintVertical_bias="0.02"
+        />
+
+
+    <Button
+        android:id="@+id/loginButtonXml"
+        android:layout_width="178dp"
+        android:layout_height="50dp"
+        android:onClick="login"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditTextXml"
+        app:layout_constraintVertical_bias="0.258">
+
+    </Button>
+
+    <CheckBox
+        android:id="@+id/rememberMeCheckBoxActXml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/rememberMe"
+
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/registerButtonXml"
+        app:layout_constraintEnd_toStartOf="@+id/loginButtonXml"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditTextXml"
+        app:layout_constraintVertical_bias="0.353"
+
+        />
+
+    <Button
+        android:id="@+id/registerButtonXml"
+        android:layout_width="143dp"
+        android:layout_height="41dp"
+        android:onClick="register"
+        android:text="@string/registration"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginWithGoogleXml"
+        app:layout_constraintVertical_bias="0.49">
+
+    </Button>
+
+    <Button
+        android:id="@+id/loginWithGoogleXml"
+        android:layout_width="172dp"
+        android:layout_height="73dp"
+        android:onClick="loginWithGoogle"
+        android:text="@string/loginWithGoogle"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/loginAsGuestXml"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rememberMeCheckBoxActXml"
+        app:layout_constraintVertical_bias="0.33">
+
+    </Button>
+
+    <Button
+        android:id="@+id/loginAsGuestXml"
+        android:layout_width="172dp"
+        android:layout_height="73dp"
+        android:onClick="loginAsGuest"
+        android:text="@string/loginAsGuest"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButtonXml"
+        app:layout_constraintVertical_bias="0.341">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

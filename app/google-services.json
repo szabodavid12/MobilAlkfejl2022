@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "312511472695",
+    "project_id": "androidtheaterapp",
+    "storage_bucket": "androidtheaterapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312511472695:android:4d20b54f0e8565882e8bb2",
+        "android_client_info": {
+          "package_name": "com.example.theaterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312511472695-f6r2qdkdpn34kl9b29qgnjdi6c85pr1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.theaterapp",
+            "certificate_hash": "4036e5a792db914b3360570ee165e9b2f09dd5cd"
+          }
+        },
+        {
+          "client_id": "312511472695-aej1iiajl1l7a1qlp7buen388u3kp1gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL6lQCymMMgXtabIr_nsiIFZl1o2q4uZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312511472695-aej1iiajl1l7a1qlp7buen388u3kp1gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
